@@ -32,7 +32,12 @@ const features: Feature[] = [{
     title: 'Outlook header card image',
     description: 'Enables header card images styled for Outlook',
     flag: 'emailHeaderCardOutlook'
-}];
+}, {
+    title: 'Tags X',
+    description: 'Enables the new Tags UI',
+    flag: 'tagsX'
+}
+];
 
 const AlphaFeatures: React.FC = () => {
     const limiter = useLimiter();
