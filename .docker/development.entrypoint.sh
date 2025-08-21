@@ -26,7 +26,7 @@ set -euo pipefail
     fi
 )
 
-# yarn nx reset
+yarn nx reset
 
 # Execute the CMD
 exec "$@"
