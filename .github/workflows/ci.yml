@@ -835,9 +835,6 @@ jobs:
         env:
           DEPENDENCY_CACHE_KEY: ${{ needs.job_setup.outputs.dependency_cache_key }}
 
-      - name: Setup Playwright
-        uses: ./.github/actions/setup-playwright
-
       - name: Install Tinybird CLI
         run: curl -fsSL https://tinybird.co/install.sh | sh
 
